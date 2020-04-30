@@ -74,7 +74,7 @@ public class Empleado {
         if (mesesT.matches("^\\d+$")){
             n= Integer.parseInt(mesesT);
             if (n>=000 && n < 1000 ){
-                setNumero_empleado(n);
+                setMeses_trabajo(n);
                 return;
             }
         }
